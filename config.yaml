@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://darkmelcof.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Darkmelcof's Blog"
 theme: "toha"
 
 # Manage languages
