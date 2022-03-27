@@ -10,8 +10,20 @@
 <link rel="stylesheet" href="{{ "/css/flag-icon.min.css" | relURL }}"/>
 
 <!--=================== fonts ==============================-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600"> -->
+<link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600&display=swap"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+        type="text/css"
+    />
+</noscript>
 <!--=================== icons ==============================-->
 <link rel="stylesheet" href="{{ "/fontawesome/css/all.min.css" | relURL }}"/>
 
