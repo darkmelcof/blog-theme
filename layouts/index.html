@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   <head>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>{{- .Site.Title -}}</title>
     {{ $siteDescription := .Site.Params.description }}
     {{ if (index .Site.Data .Site.Language.Lang).site }}
